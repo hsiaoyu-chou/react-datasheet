@@ -71,9 +71,10 @@ tbody .row-handle.cell, thead .cell:not(.row-handle) {
 }
 
 .container {
-  max-width: 600px;
   margin: auto;
+  padding: 70px;
 }
+
 table.data-grid {
   margin: auto;
   width: 100%;
@@ -98,7 +99,7 @@ table.data-grid {
 
   box-shadow: 0px 0px 6px #CCC; 
   margin: auto;
-  width: 500px;
+  max-width: 600px;
   margin-top: 20px;
   transition: box-shadow 0.5s ease-in;
 }
@@ -111,7 +112,7 @@ table.data-grid {
   border: 1px solid #ececec;
 }
 .sheet-container table.data-grid tr td.cell, .sheet-container table.data-grid tr th.cell {
-  font-size: 12px;
+  font-size: 14px;
 }
 div.divider {
   margin: 40px 0px;
